@@ -1,4 +1,7 @@
-<h1 align="center">Podcastr</h1>
+<div align="center">
+  <img src="public/logo.svg" alt="Podcastr logo">
+  <h1 align="center">Podcastr</h1>
+</div>
 <h3 align="center">A platform built for podcast broadcasting. Developed during @Rocketseat NLW#05 free training.</h3>
 
 <p align="center">
@@ -32,6 +35,20 @@ Ao longo do tempo a Next Level Week se dividiu em trilhas separadas por tecnolog
 Banco de Dados
 - Projeto utilizou um banco de dados virtual. Para a aplicação real pode ser usado o SqLite3.
 </div>
+
+#### Para clonar o processo e rodar:
+```bash
+# Instale as dependências
+$ yarn
+
+# Rode o servidor fake de backend
+$ yarn server
+
+# Rode o app
+$ yarn dev
+
+Navegador: `http://localhost:3000`
+```
 
 <h4 align="center">
     Antonio Mendanha 👋 <a href="https://www.linkedin.com/in/antoniomendanha/" target="_blank"></a>
